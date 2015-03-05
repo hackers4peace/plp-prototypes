@@ -14,6 +14,12 @@ Common definitions of profile schemas.
 * interest
 * license
 
+## Documentation
+
+Please see the centralized online documentation for further details:
+
+> http://hackers4peace.viewdocs.io/plp-docs/prototypes
+
 ## Development
 
 To be included as git submodule into other components such as plp-editor
