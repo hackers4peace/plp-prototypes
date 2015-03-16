@@ -6,7 +6,7 @@
       "type": { "type": "string", "default": "Project", "options": {"hidden": true}},
       "name": { "type": "string" , "title": "Name"},
       "description": { "type": "string", "title": "About"},
-      "url":  { "type" : "string", "title": "Homepage"},
+      "website":  { "type" : "string", "title": "Homepage"},
       "image": { "type": "string" , "title": "Image URL"},
       "version": { "type": "string" , "title": "Version"},
       "license": {

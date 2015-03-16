@@ -8,7 +8,7 @@
       "description": { "type": "string", "title": "About yourself"},
       "birthDate":  { "type": "string" , "title": "Birth date"},
       "nationality" : { "type" : "string", "title": "Nationality"},
-      "url":  { "type" : "string", "title": "Homepage"},
+      "website":  { "type" : "string", "title": "Homepage"},
       "image": { "type": "string" , "title": "Image URL"},
       "address": {
         "title": "Address",
