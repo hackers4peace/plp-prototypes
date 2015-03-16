@@ -7,7 +7,7 @@
       "name": { "type": "string" , "title": "Name"},
       "description": { "type": "string", "title": "About"},
       "telephone": { "type" : "string" , "title": "Phone number"},
-      "url":  { "type" : "string", "title": "Homepage"},
+      "website":  { "type" : "string", "title": "Homepage"},
       "image": { "type": "string" , "title": "Image URL"},
       "address": {
         "title": "Address",

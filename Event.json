@@ -6,7 +6,7 @@
       "type": { "type": "string", "default": "Event", "options": {"hidden": true}},
       "name": { "type": "string" , "title": "Name"},
       "description": { "type": "string", "title": "About"},
-      "url":  { "type" : "string", "title": "Homepage"},
+      "website":  { "type" : "string", "title": "Homepage"},
       "image": { "type": "string" , "title": "Image URL"},
       "startDate": { "type": "string", "title": "Start Date"},
       "endDate": { "type": "string", "title": "End date"},

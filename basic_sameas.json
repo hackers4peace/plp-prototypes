@@ -2,7 +2,7 @@
   "type": "object",
   "title": "Contact",
   "properties": {
-    "name": { "type": "string", "title": "Contact medium ( Twitter, Github, Email...)"},
-    "url": { "type": "string", "title": "URL"}
+    "url": { "type": "string", "title": "URL"},
+    "name": { "type": "string", "title": "Social link ( Twitter, Facebook, Github...)"}    
   }
 }

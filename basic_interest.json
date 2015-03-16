@@ -1,7 +1,7 @@
 {
   "type": "object",
   "properties": {
-    "name": { "type": "string", "title": "Name of the topic of interest"},
-    "url": { "type": "string", "title": "URL"}
+    "url": { "type": "string", "title": "URL"},
+    "name": { "type": "string", "title": "Name of the topic of interest"}
   }
 }
