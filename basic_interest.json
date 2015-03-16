@@ -1,8 +1,7 @@
 {
   "type": "object",
-  "title": "Interest",
-  "properties": {    
-    "name": { "type": "string", "title": "Name"},
-    "id": { "type": "string", "title": "URL"}
+  "properties": {
+    "name": { "type": "string", "title": "Name of the topic of interest"},
+    "url": { "type": "string", "title": "URL"}
   }
 }

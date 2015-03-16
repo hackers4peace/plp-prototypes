@@ -1,5 +1,67 @@
 {
   "schema" : {
-    "$ref": "plp-prototypes/_basic_project.json"
+    "type": "object",
+    "title": "Project",
+    "properties": {
+      "type": { "type": "string", "default": "Project", "options": {"hidden": true}},
+      "name": { "type": "string" , "title": "Name"},
+      "description": { "type": "string", "title": "About"},
+      "url":  { "type" : "string", "title": "Homepage"},
+      "image": { "type": "string" , "title": "Image URL"},
+      "version": { "type": "string" , "title": "Version"},
+      "license": {
+        "title": "License",
+        "$ref": "plp-prototypes/basic_license.json"
+      },
+      "copyrightHolder": {
+        "title": "Copyright holder",
+        "$ref": "plp-prototypes/basic_thing.json"
+      },
+      "contributor": {
+        "type": "array",
+        "uniqueItems": true,
+        "title": "Contributors",
+        "items": {
+          "title": "Contributor",
+          "$ref": "plp-prototypes/basic_thing.json"
+        }
+      },
+      "discussionUrl": {
+        "type": "array",
+        "uniqueItems": true,
+        "title": "Reference links",
+        "items": {
+          "title": "Link",
+          "$ref": "plp-prototypes/basic_thing.json"
+        }
+      },
+      "isPartOf": {
+        "type": "array",
+        "uniqueItems": true,
+        "title": "Part of other projects",
+        "items": {
+          "title": "Project",
+          "$ref": "plp-prototypes/basic_thing.json"
+        }
+      },
+      "workExample": {
+        "type": "array",
+        "uniqueItems": true,
+        "title": "See also",
+        "items": {
+          "title": "Project",
+          "$ref": "plp-prototypes/basic_thing.json"
+        }
+      },
+      "workPerformed": {
+        "type": "array",
+        "uniqueItems": true,
+        "title": "Events the project participated in",
+        "items": {
+          "title": "Event",
+          "$ref": "plp-prototypes/basic_thing.json"
+        }
+      }
+    }
   }
 }

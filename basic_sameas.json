@@ -1,8 +1,8 @@
 {
   "type": "object",
   "title": "Contact",
-  "properties": {    
-    "name": { "type": "string", "title": "Type (twitter,github,email...)"},
-    "id": { "type": "string", "title": "URL"}
+  "properties": {
+    "name": { "type": "string", "title": "Contact medium ( Twitter, Github, Email...)"},
+    "url": { "type": "string", "title": "URL"}
   }
 }

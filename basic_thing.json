@@ -1,7 +1,7 @@
 {
   "type": "object",
   "properties": {
-    "name": { "type": "string", "title": "Name of the license"},
+    "name": { "type": "string", "title": "Name"},
     "url": { "type": "string", "title": "URL"}
   }
 }
